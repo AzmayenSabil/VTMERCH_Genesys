@@ -1,6 +1,6 @@
 import React from "react";
 
-const PromotionSection = () => {
+const Promotion = () => {
   return (
     <section className="promotion-section">
       <h2>Buy 1 Get 1 Free on Best Selling Products</h2>
@@ -14,4 +14,4 @@ const PromotionSection = () => {
   );
 };
 
-export default PromotionSection;
+export default Promotion;

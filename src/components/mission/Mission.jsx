@@ -1,6 +1,6 @@
 import React from "react";
 
-const MissionSection = () => {
+const Mission = () => {
   return (
     <section className="mission-section">
       <h3>Our Mission</h3>
@@ -12,4 +12,4 @@ const MissionSection = () => {
   );
 };
 
-export default MissionSection;
+export default Mission;

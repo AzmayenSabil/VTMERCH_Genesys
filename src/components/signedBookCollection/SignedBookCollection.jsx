@@ -1,6 +1,6 @@
 import React from "react";
 
-const SignedCollection = () => {
+const SignedBookCollection = () => {
   return (
     <section className="signed-collection">
       <h2>Patrick Bet-David's Signed Collection</h2>
@@ -12,4 +12,4 @@ const SignedCollection = () => {
   );
 };
 
-export default SignedCollection;
+export default SignedBookCollection;

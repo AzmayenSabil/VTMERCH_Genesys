@@ -15,7 +15,7 @@ const Mission = () => {
           />
         </h3>
         <p
-          className="w-[1116px] font-montserrat text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] font-bold 
+          className="w-full font-montserrat text-[32px] sm:text-[36px] md:text-[42px] lg:text-[48px] font-bold 
         leading-[40px] sm:leading-[45px] md:leading-[50px] lg:leading-[57.6px] tracking-[0.005em] text-left uppercase z-10 relative 
         -mt-[7%] ml-[5%]"
         >

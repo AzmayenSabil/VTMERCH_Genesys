@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Act of Rejection";
+  src: url("/assets/fonts/Act_Of_Rejection.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

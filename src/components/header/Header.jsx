@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Header.css";
 import logo from "../../assets/logo/Valuetainment.svg"; // Adjust path if needed
-import crossCloss from "../../assets/icon/crossClose.svg"; // Adjust path if needed
+import crossCloss from "../../assets/Icon/crossClose.svg"; // Adjust path if needed
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);

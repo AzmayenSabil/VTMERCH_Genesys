@@ -1,5 +1,5 @@
 import React from "react";
-import quotesIcon from "../../assets/icon/quotes.svg";
+import quotesIcon from "../../assets/Icon/quotes.svg";
 import actorImage from "../../assets/img/img_8.png";
 
 //TESTING

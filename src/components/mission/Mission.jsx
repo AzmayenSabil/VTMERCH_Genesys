@@ -2,6 +2,7 @@ import React from "react";
 import quotesIcon from "../../assets/icon/quotes.svg";
 import actorImage from "../../assets/img/img_8.png";
 
+//TESTING
 const Mission = () => {
   return (
     <section className="mission-section min-h-[577px] flex flex-col md:flex-row items-start relative">

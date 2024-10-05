@@ -5,3 +5,8 @@
   font-style: normal;
 }
 
+* {
+  box-sizing: border-box; /* Ensures padding and borders are included in total width */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}

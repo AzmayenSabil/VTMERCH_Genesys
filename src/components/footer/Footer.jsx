@@ -112,9 +112,9 @@ const Footer = () => {
         <div className="flex flex-wrap gap-2 justify-center lg:justify-end mt-4 lg:mt-0">
           {[
             visa_1,
-            visa_2,
             dinersClub,
             paypal,
+            visa_2,
             amex,
             americanExpress,
             applePay,

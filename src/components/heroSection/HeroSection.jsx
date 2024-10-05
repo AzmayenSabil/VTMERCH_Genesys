@@ -41,7 +41,7 @@ const HeroSection = () => {
     },
   ];
 
-  // Slider settings for infinite carousel
+  // Slider settings for responsive carousel
   const settings = {
     infinite: true,
     slidesToShow: 4, // Display 4 items at once
@@ -52,19 +52,43 @@ const HeroSection = () => {
     cssEase: "linear",
     arrows: false, // Remove arrows
     pauseOnHover: true, // Continues moving even on hover
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3, // Display 3 items at once for medium devices
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2, // Display 2 items at once for small devices
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1, // Display 1 item at once for extra small devices
+        },
+      },
+    ],
   };
 
   return (
     <section className="hero-section py-10 px-6 relative h-[812px]">
       {/* Header with Fade-in Animation */}
       <h1
-        className="text-[140px] font-normal leading-[168px] tracking-[1px] relative z-10 mt-[100px] fade-in"
+        className="tracking-[1px] relative z-10 mt-[50px] md:mt-[100px] fade-in xl:ml-[150px]
+             text-[40px] leading-[50px] 
+             md:text-[70px] md:leading-[80px] 
+             lg:text-[80px] lg:leading-[100px] 
+             xl:text-[90px] xl:leading-[120px] 
+             2xl:text-[140px] 2xl:leading-[168px]"
         style={{
           fontFamily: "Act of Rejection",
           color: "#fff",
           opacity: "0.5",
           textAlign: "left", // Ensures left alignment
-          marginLeft: "150px", // Optional if you want to maintain the left margin
         }}
       >
         Future Looks Bright!
@@ -79,7 +103,7 @@ const HeroSection = () => {
           {products.map((product) => (
             <div
               key={product.id}
-              className="max-w-[357px] h-[468px] mb-[20px] mt-[50px] rounded-lg"
+              className="max-w-[357px] h-[468px] mb-[20px] mt-[50px] rounded-lg px-[10px]" // Add padding to create gaps
             >
               <img
                 src={product.image}

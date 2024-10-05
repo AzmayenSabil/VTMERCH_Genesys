@@ -10,3 +10,8 @@
   margin: 0; /* Removes default margin */
   padding: 0; /* Removes default padding */
 }
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+}

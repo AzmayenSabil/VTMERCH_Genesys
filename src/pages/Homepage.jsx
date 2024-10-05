@@ -10,7 +10,7 @@ const Homepage = () => {
   return (
     <>
       <Header />
-      <HeroSection />
+      {/* <HeroSection /> */}
       <Promotion />
       <SignedBookCollection />
       <Mission />

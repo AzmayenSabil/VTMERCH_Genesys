@@ -1,10 +1,10 @@
 import React from "react";
-import Slider from "react-slick"; // Importing the slider library
+import Slider from "react-slick"; 
 import img_1 from "../../assets/img/img_16.png";
 import img_2 from "../../assets/img/img_19.jpeg";
 import img_3 from "../../assets/img/img_20.png";
 import img_4 from "../../assets/img/img_18.png";
-import "slick-carousel/slick/slick.css"; // Import slick carousel CSS
+import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import "./HeroSection.css";
 
@@ -88,7 +88,7 @@ const HeroSection = () => {
           fontFamily: "Act of Rejection",
           color: "#fff",
           opacity: "0.5",
-          textAlign: "left", // Ensures left alignment
+          textAlign: "left", 
         }}
       >
         Future Looks Bright!
@@ -99,11 +99,11 @@ const HeroSection = () => {
         style={{ position: "absolute", top: "0", right: "0" }}
       >
         <Slider {...settings}>
-          {/* Map through products array to create product cards */}
+
           {products.map((product) => (
             <div
               key={product.id}
-              className="max-w-[357px] h-[468px] mb-[20px] mt-[50px] rounded-lg px-[10px]" // Add padding to create gaps
+              className="max-w-[357px] h-[468px] mb-[20px] mt-[50px] rounded-lg px-[10px]" 
             >
               <img
                 src={product.image}

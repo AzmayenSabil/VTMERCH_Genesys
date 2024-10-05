@@ -1,9 +1,9 @@
 import React from "react";
-import hat1 from "../../assets/img/img_22.jpeg"; // Replace with actual path to Hat 1 image
-import hat2 from "../../assets/img/img_17.jpeg"; // Replace with actual path to Hat 2 image
-import hat3 from "../../assets/img/img_11.jpeg"; // Replace with actual path to Hat 3 image
-import hat4 from "../../assets/img/img_9.jpeg"; // Replace with actual path to Hat 4 image
-import ProductCard from "./ProductCard"; // Import the ProductCard component
+import hat1 from "../../assets/img/img_22.jpeg"; 
+import hat2 from "../../assets/img/img_17.jpeg"; 
+import hat3 from "../../assets/img/img_11.jpeg"; 
+import hat4 from "../../assets/img/img_9.jpeg"; 
+import ProductCard from "./ProductCard"; 
 
 const Promotion = () => {
   return (

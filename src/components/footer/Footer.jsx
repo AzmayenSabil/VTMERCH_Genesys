@@ -17,7 +17,7 @@ const Footer = () => {
         <img
           src={logo}
           alt="VTMERCH Logo"
-          className="logo-image h-[70px] lg:h-[100px] object-contain" // Adjust height for smaller screens
+          className="logo-image h-[70px] lg:h-[100px] object-contain" 
         />
         <div className="logo-text text-[40px] lg:text-[100px] font-extrabold leading-[48px] lg:leading-[120px] tracking-[2px] lg:tracking-[5px] font-montserrat text-red-600">
           VTMERCH

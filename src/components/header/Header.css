@@ -7,9 +7,9 @@
 }
 
 * {
-  box-sizing: border-box; /* Ensures padding and borders are included in total width */
-  margin: 0; /* Removes default margin */
-  padding: 0; /* Removes default padding */
+  box-sizing: border-box;
+  margin: 0; 
+  padding: 0; 
 }
 
 .header {
@@ -47,27 +47,27 @@
 /* Media Queries for Smaller Screens */
 @media (max-width: 1200px) {
   .logo-image {
-    width: 50px; /* Smaller width for medium screens */
-    margin-right: 8px; /* Adjust margin */
+    width: 50px; 
+    margin-right: 8px; 
   }
 
   .logo-text {
-    font-size: 80px; /* Smaller font size for medium screens */
-    line-height: 96px; /* Adjusted line height */
-    letter-spacing: 8px; /* Adjusted letter spacing */
+    font-size: 80px;
+    line-height: 96px; 
+    letter-spacing: 8px; 
   }
 }
 
 @media (max-width: 768px) {
   .logo-image {
-    width: 40px; /* Smaller width for small screens */
-    margin-right: 5px; /* Adjust margin */
+    width: 40px; 
+    margin-right: 5px; 
   }
 
   .logo-text {
-    font-size: 56px; /* Smaller font size for small screens */
-    line-height: 68px; /* Adjusted line height */
-    letter-spacing: 5px; /* Adjusted letter spacing */
+    font-size: 56px; 
+    line-height: 68px; 
+    letter-spacing: 5px; 
   }
 }
 

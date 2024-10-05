@@ -18,7 +18,7 @@ const Mission = () => {
           className="w-full font-montserrat text-[18px] sm:text-[20px] md:text-[24px] lg:text-[30px] xl:text-[40px] 2xl:text-[48px] font-bold 
   leading-[30px] sm:leading-[35px] md:leading-[40px] lg:leading-[40.6px] xl:leading-[50.6px] 2xl:leading-[57.6px] tracking-[0.005em] text-left uppercase z-10 relative 
   -mt-[7%] ml-[5%] 
-  break-normal sm:break-words" // Allowing text to break normally
+  break-normal sm:break-words"
         >
           Our mission is to enlighten, entertain{" "}
           <br className="hidden md:block" />
@@ -31,7 +31,7 @@ const Mission = () => {
         <img
           src={actorImage}
           alt="Hero"
-          className="w-[250px] sm:w-[250px] md:w-[400px] lg:w-[571px] h-auto max-h-[calc(100%+200px)] object-contain" // Responsive width
+          className="w-[250px] sm:w-[250px] md:w-[400px] lg:w-[571px] h-auto max-h-[calc(100%+200px)] object-contain"
         />
       </div>
     </section>

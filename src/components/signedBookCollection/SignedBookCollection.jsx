@@ -44,7 +44,7 @@ const SignedBookCollection = () => {
 
             {/* Signature Image */}
             <img
-              src={signature} // Signature image
+              src={signature} 
               alt="Patt Bet-David Signature"
               className="w-[200px] sm:w-[350px] md:w-[400px] lg:w-[550px] xl:w-[700px] 2xl:w-[754px] h-[100px] sm:h-[150px] md:h-[200px] lg:h-[223px] object-contain opacity-100 mx-auto lg:ml-[120px]" // Responsive width and height
             />

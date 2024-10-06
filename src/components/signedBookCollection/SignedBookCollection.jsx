@@ -24,7 +24,7 @@ const SignedBookCollection = () => {
           {/* Signature Section */}
           <div className="signature mt-6 flex flex-col items-center lg:items-start gap-4">
             {/* Shop Now Button */}
-            <button className="bg-white text-black py-2 px-4 rounded h-[44px] sm:h-[50px] md:h-[54px] flex items-center justify-around mx-auto lg:ml-[150px] w-[160px] sm:w-[180px] md:w-[186px]">
+            <button className="bg-white text-black py-2 px-4 rounded-lg h-[44px] sm:h-[50px] md:h-[54px] flex items-center justify-around mx-auto lg:ml-[150px] w-[160px] sm:w-[180px] md:w-[186px] transition duration-300 ease-in-out transform hover:bg-red-600 hover:text-white hover:scale-105">
               <p>Shop Now</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const SignedBookCollection = () => {
 
             {/* Signature Image */}
             <img
-              src={signature} 
+              src={signature}
               alt="Patt Bet-David Signature"
               className="w-[200px] sm:w-[350px] md:w-[400px] lg:w-[550px] xl:w-[700px] 2xl:w-[754px] h-[100px] sm:h-[150px] md:h-[200px] lg:h-[223px] object-contain opacity-100 mx-auto lg:ml-[120px]" // Responsive width and height
             />

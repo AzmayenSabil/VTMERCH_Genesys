@@ -1,0 +1,4 @@
+.outlined-text {
+  -webkit-text-stroke: 1px black; 
+  color: transparent; 
+}

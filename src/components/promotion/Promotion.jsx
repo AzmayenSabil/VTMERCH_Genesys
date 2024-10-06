@@ -4,6 +4,7 @@ import hat2 from "../../assets/img/img_17.jpeg";
 import hat3 from "../../assets/img/img_11.jpeg"; 
 import hat4 from "../../assets/img/img_9.jpeg"; 
 import ProductCard from "./ProductCard"; 
+import "./Promotion.css";
 
 const Promotion = () => {
   return (
@@ -18,7 +19,9 @@ const Promotion = () => {
           {/* Second heading with custom styling */}
           <h2 className="text-[40px] sm:text-[30px] md:text-[50px] lg:text-[60px] xl:text-[70px] leading-[48px] sm:leading-[36px] md:leading-[60px] lg:leading-[70px] xl:leading-[84px] tracking-widest font-montserrat text-left">
             <span className="font-semibold tracking-[0.5px]">ON</span>{" "}
-            <span className="outlined-text">BEST SELLING PRODUCTS</span>
+            <span className="outlined-text font-montserrat font-semibold tracking-[0.5px] text-transparent">
+              BEST SELLING PRODUCTS
+            </span>
           </h2>
         </div>
 

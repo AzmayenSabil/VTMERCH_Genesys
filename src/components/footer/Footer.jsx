@@ -17,7 +17,7 @@ const Footer = () => {
         <img
           src={logo}
           alt="VTMERCH Logo"
-          className="logo-image h-[70px] lg:h-[100px] object-contain" 
+          className="logo-image h-[70px] lg:h-[100px] object-contain"
         />
         <div className="logo-text text-[40px] lg:text-[100px] font-extrabold leading-[48px] lg:leading-[120px] tracking-[2px] lg:tracking-[5px] font-montserrat text-red-600">
           VTMERCH
@@ -38,7 +38,7 @@ const Footer = () => {
             placeholder="Enter your email"
             className="w-full px-4 py-2 rounded bg-black text-white placeholder:text-white text-center border border-white"
           />
-          <button className="w-full bg-white text-gray-900 py-2 rounded font-semibold mt-2 hover:bg-gray-100 transition">
+          <button className="w-full bg-white text-gray-900 py-2 rounded-lg font-semibold mt-2 transition duration-300 ease-in-out transform hover:bg-red-600 hover:text-white hover:scale-105">
             Subscribe
           </button>
         </div>
